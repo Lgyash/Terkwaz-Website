@@ -17,12 +17,12 @@ public class FirstTest {
 
 	@BeforeMethod
 	public void Basic() throws InterruptedException{			
-			System.setProperty("webdriver.chrome.driver","C:\\Users\\aliab\\OneDrive\\Desktop\\Automation\\chromedriver.exe");
-			driver = new ChromeDriver(); 
-			String baseUrl = "https://www.google.com/ncr";
-		    driver.get(baseUrl);
-		    driver.manage().window().maximize();
-		    Thread.sleep(4000);
+	    System.setProperty("webdriver.chrome.driver","C:\\Users\\aliab\\OneDrive\\Desktop\\Automation\\chromedriver.exe");
+	    driver = new ChromeDriver(); 
+	    String baseUrl = "https://www.google.com/ncr";
+	    driver.get(baseUrl);
+	    driver.manage().window().maximize();
+	    Thread.sleep(4000);
 	}
 	
 	public void Search() throws InterruptedException {
